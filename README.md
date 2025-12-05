@@ -14,17 +14,20 @@ The game demonstrates object-oriented design by organizing scenes, utilities, an
 ---
 
 ## 3. OOP Concepts Applied
-
-### **3.1 Encapsulation**
+### **3.1 Abstract Classes**
+- The game uses an abstract class Episode as a blueprint for all main episodes.
+- Each episode class (Episode1, Episode2, etc.) extends Episode and implements the start() method, which begins the story for that episode.
+- This ensures all episodes follow a consistent structure and makes it easy to add new episodes in the future.
+### **3.2 Encapsulation**
 - Each scene is stored in its own class inside the `Scenes` package.
 - Helper methods and game utilities are found in the `utils` package.
 - Variables and methods are grouped logically, reducing complexity.
 
-### **3.2 Inheritance**
+### **3.3 Inheritance**
 - Scenes may share a common class to ensure a unified structure for displaying text and handling choices.
 - Shared behaviors such as `delayt` and `postDelay` across scenes are inherited instead of rewritten.
 
-### **3.3 Polymorphism**
+### **3.4 Polymorphism**
 - The main game engine can call scenes without knowing their exact class.
 
 ## 4. Program Structure
