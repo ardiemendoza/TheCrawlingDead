@@ -27,9 +27,6 @@ The game demonstrates object-oriented design by organizing scenes, utilities, an
 - Scenes may share a common class to ensure a unified structure for displaying text and handling choices.
 - Shared behaviors such as `delayt` and `postDelay` across scenes are inherited instead of rewritten.
 
-### **3.4 Polymorphism**
-- The main game engine can call scenes without knowing their exact class.
-
 ## 4. Program Structure
 
 ### **Main Components**
