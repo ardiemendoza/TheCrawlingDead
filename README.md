@@ -37,9 +37,7 @@ The game demonstrates object-oriented design by organizing scenes, utilities, an
 
 ## 5. How to Run the Program
 
-### **Step 1 – Compile**
 Make sure you are inside the project folder. Double-click the `run.bat` file.
-
 
 ## 6. Sample Output
 
